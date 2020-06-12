@@ -5,7 +5,6 @@
 	<title>Naveq CheatPack</title>
 	<meta charset="utf8" />
 	<link rel="stylesheet" type="text/css" href="styles/options.css" />
-	<script type="text/javascript" src="js/options.js"></script>
 </head>
 
 <body>
@@ -48,7 +47,10 @@
 			<label for="quizizzOptionsAutoAnswerCheckbox" class="cheatOptions" id="quizizzOptionsAutoAnswerLabel">
 				<input type="checkbox" id="quizizzOptionsAutoAnswerCheckbox" />
 			</label>
-			<section><p id="AutoAnswerTimeLabel"></p> <input type="number" id="quizizzOptionsAutoAnswerTime" /> <p id="seconds"></p></section>
+			<section>
+				<p id="AutoAnswerTimeLabel"></p> <input type="number" id="quizizzOptionsAutoAnswerTime" />
+				<p id="seconds"></p>
+			</section>
 		</section>
 	</section>
 
@@ -59,6 +61,38 @@
 			<input type="checkbox" id="brainlyCheckbox" />
 		</label>
 	</section>
+
+	<div class="cheatHeader" id="librusHeader"></div>
+	<section id="librusSettings">
+		<p id="librusCheatQuestion"></p>
+		<label for="librusCheckbox" class="cheatEnableLabel">
+			<input type="checkbox" id="librusCheckbox" />
+		</label>
+		<section>
+			<div class="cheatOptionsHeader"></div>
+			<p id="librusOptionsHeader"></p>
+			<section>
+				<p id="librusOptionsPositiveFractionLabel"></p> <input type="number" id="librusOptionsPositiveFraction" />
+				<p id="librusOptionsNegativeFractionLabel"></p> <input type="number" id="librusOptionsNegativeFraction" />
+				<p id="librusOptionsDefaultWeightLabel"></p> <input type="number" id="librusOptionsDefaultWeight" />
+			</section>
+			<section>
+				<label for="librusOptionsUseWeightsCheckbox" class="cheatOptions" id="librusOptionsUseWeightsLabel">
+					<input type="checkbox" id="librusOptionsUseWeightsCheckbox" />
+				</label>
+				<br /><br />
+				<label for="librusOptionsRespectPolicyCheckbox" class="cheatOptions"
+					id="librusOptionsRespectPolicyLabel">
+					<input type="checkbox" id="librusOptionsRespectPolicyCheckbox" />
+				</label>
+				<br /><br />
+				<label for="librusOptionsCountZerosCheckbox" class="cheatOptions" id="librusOptionsCountZerosLabel">
+					<input type="checkbox" id="librusOptionsCountZerosCheckbox" />
+				</label>
+			</section>
+		</section>
+	</section>
+	<script type="text/javascript" src="js/options.js"></script>
 </body>
 
 </html>

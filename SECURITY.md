@@ -5,9 +5,9 @@
 | Version   | Supported          |
 | -------   | ------------------ |
 | 6.9.(nks) | :x:                |
-| 0.0.1     | :x:                |
-| 0.0.4     | :white_check_mark: |
-| < 0.0.4   | :x:                |
+| 0.0.4     | :zzz:              |
+| 0.1.0     | :white_check_mark: |
+| other     | :x:                |
 
 ## Reporting a Vulnerability
 

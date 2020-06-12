@@ -19,6 +19,10 @@
 		"message": "Brainly załadowane... pyr pyr pyr",
 		"description": "Komunikat w konsoli pojawiający się po załadowaniu cheatu do Brainly."
 	},
+	"librusLoading": {
+		"message": "Librus załadowany... pyr pyr pyr",
+		"description": "Komunikat w konsoli pojawiający się po załadowaniu cheatu do Librus Synergia."
+	},
 	"testportalName": {
 		"message": "Testportal",
 		"description": "[TŁUMACZENIE]"
@@ -31,6 +35,10 @@
 		"message": "Brainly",
 		"description": "[TŁUMACZENIE]"
 	},
+	"librusName": {
+		"message": "Librus",
+		"description": "[TŁUMACZENIE]"
+	},
 	"testportalCheatQuestion": {
 		"message": "Czy chcesz aktywować cheaty do Testportal?",
 		"description": "Pytanie do użytkownika, czy aktywować cheaty do Testportal."
@@ -41,6 +49,10 @@
 	},
 	"brainlyCheatQuestion": {
 		"message": "Czy chcesz aktywować cheaty do Brainly?",
+		"description": "Pytanie do użytkownika, czy aktywować cheaty do Brainly."
+	},
+	"librusCheatQuestion": {
+		"message": "Czy chcesz aktywować cheaty do Librus Synergia?",
 		"description": "Pytanie do użytkownika, czy aktywować cheaty do Brainly."
 	},
 	"cheatEnableLabel": {
@@ -118,5 +130,29 @@
 	"specialThanks": {
 		"message": "Specjalne podziękowania dla",
 		"description": "Podziękowania dla danych osób na karcie Informacje. [TŁUMACZENIE]"
+	},
+	"librusOptionsPositiveFractionPlaceholder": {
+		"message": "Wartość plusa",
+		"description": ""
+	},
+	"librusOptionsNegativeFractionPlaceholder": {
+		"message": "Wartość minusa",
+		"description": ""
+	},
+	"librusOptionsDefaultWeightPlaceholder": {
+		"message": "Domyślna waga",
+		"description": ""
+	},
+	"librusOptionsUseWeightsLabel": {
+		"message": "Używaj wag",
+		"description": ""
+	},
+	"librusOptionsRespectPolicyLabel": {
+		"message": "Uwzględniaj oznaczenie \"Licz do średniej\"",
+		"description": ""
+	},
+	"librusOptionsCountZerosLabel": {
+		"message": "Licz zera",
+		"description": ""
 	}
 }

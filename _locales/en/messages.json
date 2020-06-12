@@ -19,6 +19,10 @@
 		"message": "Brainly loaded...",
 		"description": "A message in the console appears when the Brainly cheat is loaded."
 	},
+	"librusLoading": {
+		"message": "Librus loaded...",
+		"description": "A message in the console appears when the Librus cheat is loaded."
+	},
 	"testportalName": {
 		"message": "Testportal",
 		"description": "[TRANSLATION]"
@@ -31,6 +35,10 @@
 		"message": "Brainly",
 		"description": "[TRANSLATION]"
 	},
+	"librusName": {
+		"message": "Librus",
+		"description": "[TRANSLATION]"
+	},
 	"testportalCheatQuestion": {
 		"message": "Do you want to activate Testportal cheats?",
 		"description": "Does user want to activate cheats for Testportal?"
@@ -41,7 +49,11 @@
 	},
 	"brainlyCheatQuestion": {
 		"message": "Do you want to activate Brainly cheats?",
-		"description": "Does user want to activate cheats for Google Forms?"
+		"description": "Does user want to activate cheats for Brainly?"
+	},
+	"librusCheatQuestion": {
+		"message": "Do you want to activate Librus Synergia cheats?",
+		"description": "Does user want to activate cheats for Librus Synergis?"
 	},
 	"cheatEnableLabel": {
 		"message": "Yes, I want to enable these cheats.",
@@ -118,5 +130,29 @@
 	"specialThanks": {
 		"message": "Special thanks to",
 		"description": "Special thanks label in Informations page. [TRANSLATION]"
+	},
+	"librusOptionsPositiveFractionPlaceholder": {
+		"message": "Positive fraction",
+		"description": ""
+	},
+	"librusOptionsNegativeFractionPlaceholder": {
+		"message": "Negative fraction",
+		"description": ""
+	},
+	"librusOptionsDefaultWeightPlaceholder": {
+		"message": "Default weight",
+		"description": ""
+	},
+	"librusOptionsUseWeightsLabel": {
+		"message": "Use weights",
+		"description": ""
+	},
+	"librusOptionsRespectPolicyLabel": {
+		"message": "Respect grades' policy",
+		"description": ""
+	},
+	"librusOptionsCountZerosLabel": {
+		"message": "Count zeros",
+		"description": ""
 	}
 }

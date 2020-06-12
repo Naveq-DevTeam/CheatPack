@@ -1,8 +1,8 @@
 {
 	"name": "Naveq-CheatPack",
-	"version": "0.0.4",
+	"version": "0.1",
 	"manifest_version": 2,
-	"description": "Simple CheatPack for Testportal, Quizizz and Brainly.",
+	"description": "Simple CheatPack for Testportal, Quizizz, Brainly and Librus Synergia.",
 	"icons": {
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
@@ -64,6 +64,19 @@
 			],
 			"js": [
 				"src/inject/brainly/inject.js"
+			],
+			"run_at": "document_idle"
+		},
+		{
+			"matches": [
+				"*://synergia.librus.pl/przegladaj_oceny/*"
+			],
+			"css": [
+				"src/inject/librus/inject.css"
+			],
+			"js": [
+				"src/inject/librus/js/jquery.min.js",
+				"src/inject/librus/inject.js"
 			],
 			"run_at": "document_end"
 		}
