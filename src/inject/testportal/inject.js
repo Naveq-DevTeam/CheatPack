@@ -34,7 +34,7 @@ const readyStateCheckInterval = setInterval(() => {
 				const nextXHR = (scriptNumber) => {
 					if (scriptNumber == 1) {
 						if (testportalCheat) {
-							xhr.open('GET', `${serverAddress}/testportal/antifocus.js`, true); // Focus cheat
+							xhr.open('GET', `${serverAddress}/testportal/anti_blurspy.js`, true); // Focus cheat
 							xhr.send(null);
 						}
 					}
